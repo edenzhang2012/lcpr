@@ -74,8 +74,10 @@
 
 // @lcpr-template-end
 // @lc code=start
-func countKConstraintSubstrings(s string, k int, queries [][]int) []int64 {
+package main
 
+func countKConstraintSubstrings(s string, k int, queries [][]int) []int64 {
+	return nil
 }
 
 // @lc code=end
@@ -90,4 +92,3 @@ func countKConstraintSubstrings(s string, k int, queries [][]int) []int64 {
 // @lcpr case=end
 
 */
-

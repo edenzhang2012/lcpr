@@ -55,6 +55,10 @@
 
 // @lcpr-template-end
 // @lc code=start
+package main
+
+import "strings"
+
 func lengthOfLongestSubstring(s string) int {
 	/*
 		常规思路【也叫滑动窗口】：

@@ -64,6 +64,13 @@
  *     Next *ListNode
  * }
  */
+package main
+
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
+
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	/*
 		方案1：常规方案
@@ -131,4 +138,3 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 // @lcpr case=end
 
 */
-
